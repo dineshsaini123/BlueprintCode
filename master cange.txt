@@ -1,0 +1,12 @@
+gledger
+sledger
+invoiceend
+creditend
+countersaleend
+discountcategory
+
+books
+groups
+districts
+agentmaster
+reportgroup

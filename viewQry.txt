@@ -1,0 +1,39 @@
+USE [chitraData]
+GO
+
+/****** Object:  View [dbo].[gpnameQry]    Script Date: 09/15/2015 14:14:16 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE VIEW [dbo].[gpnameQry]
+AS
+SELECT     dbo.BOOKS.BOOKCODE, dbo.GROUPS.groupname
+FROM         dbo.GROUPS INNER JOIN
+                      dbo.BOOKS ON dbo.GROUPS.groupcode = dbo.BOOKS.GROUPCODE
+
+GO
+
+
+
+
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE VIEW [dbo].[invoiceBQry]
+AS
+SELECT     dbo.INVOICEB.INVOICENO, dbo.INVOICEB.INVOICEDATE, dbo.INVOICEB.Genledger, dbo.INVOICEB.SUBLEDGER, dbo.INVOICEB.BOOKCODE, 
+                      dbo.INVOICEB.QUANTITY, dbo.INVOICEB.RATE, dbo.INVOICEB.DISCOUNT, dbo.INVOICEB.PRINTORDER, dbo.INVOICEB.AMOUNT, 
+                      dbo.INVOICEB.NETAMOUNT, dbo.INVOICEB.SNO, dbo.INVOICEB.agentname, dbo.INVOICEB.Fyear, dbo.INVOICEB.setupid, dbo.BOOKS.BOOKNAME, 
+                      dbo.gpnameQry.groupname, dbo.BOOKS.GROUPCODE
+FROM         dbo.INVOICEB INNER JOIN
+                      dbo.BOOKS ON dbo.INVOICEB.BOOKCODE = dbo.BOOKS.BOOKCODE INNER JOIN
+                      dbo.gpnameQry ON dbo.BOOKS.BOOKCODE = dbo.gpnameQry.BOOKCODE
+
+GO
+

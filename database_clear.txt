@@ -1,0 +1,24 @@
+ delete from [ExportData].[dbo].[VOUCHERS]
+ delete FROM [ExportData].[dbo].[Casha]
+ delete FROM [ExportData].[dbo].[Cashb]
+ delete FROM [ExportData].[dbo].[Cashc]
+ 
+ 
+ delete FROM [ExportData].[dbo].[invoicea]
+ delete FROM [ExportData].[dbo].[invoiceb]
+ delete FROM [ExportData].[dbo].[invoicec]
+ 
+ 
+ delete FROM [ExportData].[dbo].[Purchasea]
+ delete FROM [ExportData].[dbo].[Purchaseb]
+ delete FROM [ExportData].[dbo].[Purchasec]
+ 
+ 
+ delete FROM [ExportData].[dbo].[CREDITA]
+ delete FROM [ExportData].[dbo].[CREDITb]
+ delete FROM [ExportData].[dbo].[CREDITc]
+ 
+ delete FROM [ExportData].[dbo].[ReceiveRegister]
+ delete FROM [ExportData].[dbo].[Reel_ReamDetails]
+ delete FROM [ExportData].[dbo].[Reel_ReamMaster]
+ delete from [ExportData].[dbo].[ProductReceipt]

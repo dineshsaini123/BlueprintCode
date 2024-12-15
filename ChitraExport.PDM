@@ -1,0 +1,255 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\software\ChitraExport\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=Yes
+Excel=Yes
+Jet 2.x=Yes
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+u2LBAR.DLL=
+u25TOTAL.DLL=
+u25STORE.DLL=
+Crystal=
+WORDPAD.EXE=
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+F:\WINDOWS\system32\Vsflex7.ocx=
+F:\WINDOWS\system32\MSADO20.TLB=
+F:\WINDOWS\system32\MSSTDFMT.DLL=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+F:\WINDOWS\system32\MSRDO20.DLL=
+F:\WINDOWS\system32\Mscomctl.ocx=
+F:\WINDOWS\system32\COMDLG32.OCX=
+F:\WINDOWS\system32\scrrun.dll=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+D:\software\ChitraExport\Export.exe=Yes
+F:\WINDOWS\system32\msvbvm60.dll=Yes
+F:\WINDOWS\system32\oleaut32.dll=Yes
+F:\WINDOWS\system32\olepro32.dll=Yes
+F:\WINDOWS\system32\asycfilt.dll=Yes
+F:\WINDOWS\system32\stdole2.tlb=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+F:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+F:\WINDOWS\system32\MSADO20.TLB=Yes
+F:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+F:\WINDOWS\system32\MSJET35.DLL=Yes
+F:\WINDOWS\system32\MSJTER35.DLL=Yes
+F:\WINDOWS\system32\MSJINT35.DLL=Yes
+F:\WINDOWS\system32\vbajet32.dll=Yes
+F:\WINDOWS\system32\expsrv.dll=Yes
+F:\WINDOWS\system32\MSRD2X35.DLL=Yes
+F:\WINDOWS\system32\MSREPL35.DLL=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+F:\WINDOWS\system32\VB5DB.DLL=Yes
+F:\WINDOWS\system32\MSBIND.DLL=Yes
+F:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=Yes
+F:\WINDOWS\system32\scrrun.dll=Yes
+F:\WINDOWS\system32\msvcrt.dll=Yes
+F:\WINDOWS\system32\COMDLG32.OCX=Yes
+F:\WINDOWS\system32\Mscomctl.ocx=Yes
+F:\WINDOWS\system32\TABCTL32.OCX=Yes
+F:\WINDOWS\system32\MSFLXGRD.OCX=Yes
+F:\WINDOWS\system32\MSMASK32.OCX=Yes
+F:\WINDOWS\system32\RICHTX32.OCX=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+F:\WINDOWS\system32\MSHFLXGD.OCX=Yes
+F:\WINDOWS\system32\COMCT232.OCX=Yes
+F:\WINDOWS\system32\MSADODC.OCX=Yes
+F:\WINDOWS\system32\MSDATGRD.OCX=Yes
+F:\WINDOWS\system32\Crystl32.OCX=Yes
+F:\WINDOWS\system32\crpe32.dll=Yes
+F:\WINDOWS\system32\IMPLODE.DLL=Yes
+F:\WINDOWS\system32\Crpaig80.dll=Yes
+F:\WINDOWS\system32\mfc42.dll=Yes
+F:\WINDOWS\Crystal\Crxlat32.dll=Yes
+F:\WINDOWS\Crystal\p2bbde.dll=Yes
+F:\WINDOWS\system32\P2BBND.DLL=Yes
+F:\WINDOWS\system32\p2bdao.dll=Yes
+F:\WINDOWS\Crystal\p2bxbse.dll=Yes
+F:\WINDOWS\system32\p2ctdao.dll=Yes
+F:\WINDOWS\system32\p2irdao.dll=Yes
+F:\WINDOWS\Crystal\p2sifmx.dll=Yes
+F:\WINDOWS\system32\P2smon.dll=Yes
+F:\WINDOWS\system32\p2sodbc.dll=Yes
+F:\WINDOWS\Crystal\p2sora7.dll=Yes
+F:\WINDOWS\Crystal\p2ssql.dll=Yes
+F:\WINDOWS\Crystal\p2ssyb10.dll=Yes
+F:\WINDOWS\Crystal\p2soledb.dll=Yes
+F:\WINDOWS\Crystal\u2ddisk.dll=Yes
+F:\WINDOWS\Crystal\u2dmapi.dll=Yes
+F:\WINDOWS\Crystal\u2dnotes.dll=Yes
+F:\WINDOWS\Crystal\u2dpost.dll=Yes
+F:\WINDOWS\Crystal\u2dvim.dll=Yes
+F:\WINDOWS\Crystal\u2dapp.dll=Yes
+F:\WINDOWS\Crystal\u2fcr.dll=Yes
+F:\WINDOWS\Crystal\u2fhtml.dll=Yes
+F:\WINDOWS\Crystal\u2fodbc.dll=Yes
+F:\WINDOWS\Crystal\u2frec.dll=Yes
+F:\WINDOWS\Crystal\u2frtf.dll=Yes
+F:\WINDOWS\Crystal\u2fsepv.dll=Yes
+F:\WINDOWS\Crystal\u2ftext.dll=Yes
+F:\WINDOWS\Crystal\u2fwks.dll=Yes
+F:\WINDOWS\Crystal\u2fwordw.dll=Yes
+F:\WINDOWS\Crystal\u2fxls.dll=Yes
+F:\WINDOWS\Crystal\u25dts.dll=Yes
+F:\WINDOWS\Crystal\u2l2000.dll=Yes
+F:\WINDOWS\Crystal\u2lcom.dll=Yes
+F:\WINDOWS\Crystal\u2ldts.dll=Yes
+F:\WINDOWS\Crystal\u2lsamp1.dll=Yes
+F:\WINDOWS\Crystal\u252000.dll=Yes
+F:\WINDOWS\system32\SSCSDK80.DLL=Yes
+F:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+F:\WINDOWS\system32\Vsflex7.ocx=Yes
+F:\WINDOWS\system32\MSDATLST.OCX=Yes
+F:\WINDOWS\system32\MSEXCL35.DLL=Yes
+F:\WINDOWS\system32\MSRDO20.DLL=Yes
+F:\WINDOWS\system32\RDOCURS.DLL=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+F:\WINDOWS\system32\VB6STKIT.DLL=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+D:\software\ChitraExport\Export.exe=$(AppPath)
+F:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+F:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+F:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+F:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+F:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+F:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+F:\WINDOWS\system32\MSADO20.TLB=$(WinSysPath)
+F:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+F:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+F:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+F:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+F:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+F:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+F:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+F:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+F:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+F:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+F:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=$(CommonFiles)\designer
+F:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+F:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+F:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+F:\WINDOWS\system32\Mscomctl.ocx=$(WinSysPath)
+F:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+F:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+F:\WINDOWS\system32\MSMASK32.OCX=$(WinSysPath)
+F:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+F:\WINDOWS\system32\MSHFLXGD.OCX=$(WinSysPath)
+F:\WINDOWS\system32\COMCT232.OCX=$(WinSysPath)
+F:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+F:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+F:\WINDOWS\system32\Crystl32.OCX=$(WinSysPath)
+F:\WINDOWS\system32\crpe32.dll=$(WinSysPath)
+F:\WINDOWS\system32\IMPLODE.DLL=$(WinSysPath)
+F:\WINDOWS\system32\Crpaig80.dll=$(WinSysPath)
+F:\WINDOWS\system32\mfc42.dll=$(WinSysPath)
+F:\WINDOWS\Crystal\Crxlat32.dll=$(WinSysPath)
+F:\WINDOWS\Crystal\p2bbde.dll=$(WinSysPath)
+F:\WINDOWS\system32\P2BBND.DLL=$(WinSysPath)
+F:\WINDOWS\system32\p2bdao.dll=$(WinSysPath)
+F:\WINDOWS\Crystal\p2bxbse.dll=$(WinSysPath)
+F:\WINDOWS\system32\p2ctdao.dll=$(WinSysPath)
+F:\WINDOWS\system32\p2irdao.dll=$(WinSysPath)
+F:\WINDOWS\Crystal\p2sifmx.dll=$(WinSysPath)
+F:\WINDOWS\system32\P2smon.dll=$(WinSysPath)
+F:\WINDOWS\system32\p2sodbc.dll=$(WinSysPath)
+F:\WINDOWS\Crystal\p2sora7.dll=$(WinSysPath)
+F:\WINDOWS\Crystal\p2ssql.dll=$(WinSysPath)
+F:\WINDOWS\Crystal\p2ssyb10.dll=$(WinSysPath)
+F:\WINDOWS\Crystal\p2soledb.dll=$(WinSysPath)
+F:\WINDOWS\Crystal\u2ddisk.dll=$(WinSysPath)
+F:\WINDOWS\Crystal\u2dmapi.dll=$(WinSysPath)
+F:\WINDOWS\Crystal\u2dnotes.dll=$(WinSysPath)
+F:\WINDOWS\Crystal\u2dpost.dll=$(WinSysPath)
+F:\WINDOWS\Crystal\u2dvim.dll=$(WinSysPath)
+F:\WINDOWS\Crystal\u2dapp.dll=$(WinSysPath)
+F:\WINDOWS\Crystal\u2fcr.dll=$(WinSysPath)
+F:\WINDOWS\Crystal\u2fhtml.dll=$(WinSysPath)
+F:\WINDOWS\Crystal\u2fodbc.dll=$(WinSysPath)
+F:\WINDOWS\Crystal\u2frec.dll=$(WinSysPath)
+F:\WINDOWS\Crystal\u2frtf.dll=$(WinSysPath)
+F:\WINDOWS\Crystal\u2fsepv.dll=$(WinSysPath)
+F:\WINDOWS\Crystal\u2ftext.dll=$(WinSysPath)
+F:\WINDOWS\Crystal\u2fwks.dll=$(WinSysPath)
+F:\WINDOWS\Crystal\u2fwordw.dll=$(WinSysPath)
+F:\WINDOWS\Crystal\u2fxls.dll=$(WinSysPath)
+F:\WINDOWS\Crystal\u25dts.dll=$(WinSysPath)
+F:\WINDOWS\Crystal\u2l2000.dll=$(WinSysPath)
+F:\WINDOWS\Crystal\u2lcom.dll=$(WinSysPath)
+F:\WINDOWS\Crystal\u2ldts.dll=$(WinSysPath)
+F:\WINDOWS\Crystal\u2lsamp1.dll=$(WinSysPath)
+F:\WINDOWS\Crystal\u252000.dll=$(WinSysPath)
+F:\WINDOWS\system32\SSCSDK80.DLL=$(WinSysPath)
+F:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+F:\WINDOWS\system32\Vsflex7.ocx=$(WinSysPath)
+F:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+F:\WINDOWS\system32\MSEXCL35.DLL=$(WinSysPathSysFile)
+F:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+F:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+F:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+D:\software\ChitraExport\Export.exe=No
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Chitra Export
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Chitra Export
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Chitra Export]
+Icon1=Export.exe
+Title1=Chitra Export
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=D:\software\ChitraExport\Package
+ProjectFolder=D:\software\ChitraExport
+ServerSideCab=
+File1=D:\software\ChitraExport\Package\setup.exe
+File2=D:\software\ChitraExport\Package\Setup.Lst
+File3=D:\software\ChitraExport\Package\Export.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

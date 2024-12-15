@@ -1,0 +1,6 @@
+insert into [chitraData_1617].[dbo].[UsrePermission]
+      ([type],TaskName,[Permission],[Save],[Delete],[Edit],[TaskType],[UserName],[password],[Module],[fyear])
+      VALUES('Transaction','Adjustment Option...','y','y','y','y','mnuAdjOp','admin','a','Invoicing','2016-17')
+insert into [chitraData_1617].[dbo].[UsrePermission]
+      ([type],TaskName,[Permission],[Save],[Delete],[Edit],[TaskType],[UserName],[password],[Module],[fyear])
+      VALUES('Transaction','T.O.D. List ...','y','y','y','y','mnutod','admin','a','Invoicing','2016-17')  

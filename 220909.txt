@@ -1,0 +1,4 @@
+add temprecop in sledger float
+replace partywisestm
+
+alter treport set default values to dr cr and opening

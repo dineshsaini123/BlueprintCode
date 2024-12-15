@@ -1,0 +1,83 @@
+use chitraData 
+update BOOKS set Fyear ='2013-14'
+update AGENTMASTER set Fyear ='2013-14'
+update BookMaster set Fyear ='2013-14'
+update City set Fyear ='2013-14'
+update College set Fyear ='2013-14'
+update Country set fyear ='2013-14'
+update DISCCATS set fyear='2013-14'
+update DISTRICTS set fyear ='2013-14'
+update GLEDGER set Fyear ='2013-14'
+update Godownmaster set Fyear ='2013-14'
+update GROUPS set Fyear ='2013-14'
+update GSMMaster set fyear ='2013-14'
+update Info set fyear ='2013-14'
+update SizeMaster set fyear ='2013-14'
+update SLEDGER set fyear='2013-14'
+update [State] set fyear='2013-14'
+update teacher set fyear='2013-14'
+update transportmaster set fyear='2013-14'
+update UsrePermission set fyear='2013-14'
+update INVOICEEND set fyear='2013-14'
+
+
+use chitraData 
+delete from VOUCHERS
+delete from bankstm
+delete from billmaster
+delete from billtrans
+delete from BILTYRETURNREGISTER
+delete from BinderBkReceive
+delete from BookReceiveDet
+delete from BookStock
+delete from CASHA
+delete from CASHB
+delete from CASHC
+
+delete from CASHA_basil
+delete from CASHB_basil
+delete from CASHC_basil
+
+delete from CASHA_basilRet
+delete from CASHb_basilRet
+delete from CASHc_basilRet
+
+delete from CNF1A
+delete from CNF1b
+
+delete from CREDITA
+delete from CREDITB
+delete from CREDITC
+
+delete from DispatchRegister
+
+delete from DNFA
+delete from DNFB
+
+delete from DonationA
+delete from DonationB
+
+delete from INVOICEA
+delete from INVOICEb
+delete from INVOICEc
+
+delete from INVOICEA_IssuedBind
+delete from INVOICEb_IssuedBind
+delete from INVOICEc_IssuedBind
+
+delete from INVOICEA_spRet
+delete from INVOICEAb_spRet
+delete from INVOICEc_spRet
+
+delete from INVOICEa_sp
+delete from INVOICEb_sp
+delete from INVOICEc_sp
+delete from IssueA
+delete from Issueb
+delete from Issuec
+delete from OrderPrint_Det
+delete from OrderPrint_Main
+delete from paperstatement
+delete from ReceiveIssueParty
+
+

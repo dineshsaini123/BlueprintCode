@@ -1,0 +1,29 @@
+Query
+--------
+
+1. billingSchoolQry
+2. partywiseIssueReceveQry
+3. Stock_NewBinderStockQry
+4. BookAndSchoolWiseSaleRet
+5.CreditNotDetQry
+6. useForApprovalQry
+7.UpDateAppTDis
+
+
+
+Stored Procedure
+------------------------
+tmpdata
+tmpSAdjDet
+Sp_UpdateCrItem_adj
+
+
+1. forUpdateCrNoIn_Ledger
+    (data Set --- Current year & last year)
+
+2. tmpLedgerNew
+    (change session)
+
+3. ALTER PROCEDURE [dbo].[balance_120]
+
+4. Stock_NewBinderStockQry and RL Also

@@ -1,0 +1,87 @@
+insert into [chitraData_1718].[dbo].[BookGp]
+SELECT [Id]
+      ,[GroupCode]
+      ,[Fyear]
+      ,[setupid]
+FROM [chitraData_1617].[dbo].[BookGp]
+
+
+insert into [chitraData_1718].[dbo].[BookMaster]
+select * from [chitraData_1617].[dbo].[BookMaster]
+
+
+insert into [chitraData_1718].[dbo].[BOOKS]
+select * from [chitraData_1617].[dbo].[BOOKS]
+
+
+insert into [chitraData_1718].[dbo].[BOOKS_KIT]
+select * from [chitraData_1617].[dbo].[BOOKS_KIT]
+
+
+insert into [chitraData_1718].[dbo].[GLEDGER]
+select * from [chitraData_1617].[dbo].[GLEDGER]
+
+
+insert into [chitraData_1718].[dbo].[Godownmaster]
+select * from [chitraData_1617].[dbo].[Godownmaster]
+
+
+insert into [chitraData_1718].[dbo].[GROUPS]
+select * from [chitraData_1617].[dbo].[GROUPS]
+
+
+insert into [chitraData_1718].[dbo].[GSMMaster]
+select * from [chitraData_1617].[dbo].[GSMMaster]
+
+
+insert into [chitraData_1718].[dbo].[INVOICEEND]
+select * from [chitraData_1617].[dbo].[INVOICEEND]
+
+insert into [chitraData_1718].[dbo].[MasterTbl]
+select * from [chitraData_1617].[dbo].[MasterTbl]
+
+
+insert into [chitraData_1718].[dbo].[pass]
+select * from [chitraData_1617].[dbo].[pass]
+
+
+insert into [chitraData_1718].[dbo].[SizeMaster]
+select * from [chitraData_1617].[dbo].[SizeMaster]
+
+
+insert into [chitraData_1718].[dbo].[SLEDGER]
+select * from [chitraData_1617].[dbo].[SLEDGER]
+
+insert into [chitraData_1718].[dbo].[State]
+select * from [chitraData_1617].[dbo].[State]
+
+insert into [chitraData_1718].[dbo].[StockHead]
+select * from [chitraData_1617].[dbo].[StockHead]
+
+
+insert into [chitraData_1718].[dbo].[UsrePermission]
+select * from [chitraData_1617].[dbo].[UsrePermission]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

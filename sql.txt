@@ -1,0 +1,11 @@
+update [chitraData].[dbo].[financialyear] set fyear ='2014-15' where setupid =1
+update [chitraData].[dbo].[SizeMaster] set fyear ='2014-15' where setupid =1
+update [chitraData].[dbo].[GSMMaster] set fyear ='2014-15' where setupid =1
+update [chitraData].[dbo].[PaperMakeMaster] set fyear ='2014-15',setupid =1
+update [chitraData].[dbo].[BookMaster] set fyear ='2014-15' where setupid =1
+update [chitraData].[dbo].[UsrePermission] set fyear ='2014-15' where where setupid =1
+update [chitraData].[dbo].[setup] set fyear ='2014-15' where setupid =1
+update [chitraData].[dbo].[GLEDGER] set fyear ='2014-15' where setupid =1
+update [chitraData].[dbo].[SLEDGER] set fyear ='2014-15' where setupid =1
+update [chitraData].[dbo].[city] set fyear ='2014-15' where setupid =1
+update [chitraData].[dbo].[DISTRICTS] set fyear ='2014-15' where setupid =1

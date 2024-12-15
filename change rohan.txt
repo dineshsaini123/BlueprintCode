@@ -1,0 +1,6 @@
+login
+====================================
+
+add viewallcomp bit
+add othercompmasterdata bit
+

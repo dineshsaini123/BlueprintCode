@@ -1,0 +1,16 @@
+Stored procedures
+
+1.donnationTmp
+2.NetSale
+3.NetSaleSummary
+4.tmpdata
+5.tmpdata_saleadj
+6.tmpdataForSale
+7.tmpdataForSale_and_Ret
+
+
+
+
+
+NetSale_Fullyear  check
+NetSale

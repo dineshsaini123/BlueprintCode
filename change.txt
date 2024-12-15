@@ -1,0 +1,13 @@
+change InvoiceA
+---------------
+
+1. RecAmt
+2. notshow
+
+---------------
+
+And Export Query
+----------------
+
+BalanceRegister
+

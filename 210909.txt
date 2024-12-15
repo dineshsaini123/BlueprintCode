@@ -1,0 +1,12 @@
+update
+====================
+receiveregister view
+saleregister1 view
+
+
+replace reports
+====================
+itemwisesales
+itemwiseagent
+partywisestm
+qualitywiseitemlist
